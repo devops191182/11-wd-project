@@ -13,13 +13,13 @@
           apiVersion: v1
           kind: Pod
           metadata:
-            name: rajat-pod
+            name: devops-pod
             namespace: default
           spec:
             containers:
-              - name: prateek-cont-01
+              - name: cont-01
                 image: ubuntu:latest
                 command: ["sleep", "3600"]
-              - name: suman-cont-02
+              - name: cont-02
                 image: ubuntu:latest
                 command: ["sleep", "3600"]
