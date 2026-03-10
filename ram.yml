@@ -1,0 +1,6 @@
+---
+name: creating ec2
+hosts: localhost
+task: 11am-batch 
+  -name: linux 
+   service: apt
